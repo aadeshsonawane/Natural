@@ -5,6 +5,7 @@
 }
 body{
     background-color: rgb(236, 234, 229);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .navHeading{
     background-color:#00ac4e;
@@ -17,9 +18,11 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: white;
+    height: 8rem;
 }
 .logoBox{
     display: flex;
+
 }
 .seocndcon  button{
     background-color: #00ac4e;
@@ -59,6 +62,74 @@ body{
 }
 .menuBar{
     height: 3rem;
-    background-color: aqua;
+    background-color: #39393f;
+}
+/* menu list css  */
+.menuList{
+    width: 100%;
+    height: 3rem;
+}
+.menuList ul{
+    display:flex; 
+    justify-content:space-around;
+    margin: 0 15rem;
+    padding-top: 14px;
+}
+.menuList ul li{
+    text-align: center;
+    list-style: none;
+}
+.menuList ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menuList ul li a:hover{
+    color: #00ac4e;
+    border-bottom: #00ac4e solid 1px;
 }
 
+.chocoBite img{
+    width: 100%;
+}
+.years{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+.youTube iframe{
+    width: 80%;
+    height: 30rem;
+    margin-left: 9rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    
+}
+
+/* products */
+.Products{
+    margin-bottom: 3rem;
+}
+.imgDiv{
+    margin-left: 1rem;
+    display: flex;
+}
+.imgDiv img{
+    width: 40rem;
+    height: 17rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+
+}
+.mainImgDiv{
+    width: 40rem;
+    height: 17rem;
+}
+
+.bestSel{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2rem;
+    font-weight: 5rem;
+}
