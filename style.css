@@ -1,47 +1,54 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     background-color: rgb(236, 234, 229);
-      font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 html {
-  scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
-.navHeading{
-    background-color:#00ac4e;
+
+.navHeading {
+    background-color: #00ac4e;
     width: 100%;
     text-align: center;
     padding: 1rem;
     color: white;
 }
-.seocndcon{
+
+.seocndcon {
     display: flex;
     justify-content: space-between;
     background-color: white;
     height: 8rem;
 }
 
-.logoBox{
+.logoBox {
     display: flex;
 
 }
-.seocndcon  button{
+
+.seocndcon button {
     background-color: #00ac4e;
     border: none;
     border-radius: 5px;
     height: 2rem;
     margin-top: 3rem;
 }
-.seocndcon button a{
-    text-decoration: none; 
+
+.seocndcon button a {
+    text-decoration: none;
     color: white;
     padding: 1rem;
     font-size: 1rem;
 }
-.logoBox img{
+
+.logoBox img {
     width: 18rem;
     height: 7rem;
     padding: 1rem 0;
@@ -49,124 +56,199 @@ html {
     margin-right: 1.5rem;
 
 }
-.serachBox{
-    /* background-color:aqua; */
-    width: 34rem;
-    
 
+.serachBox {
+    width: 34rem;
 }
-.serachBox i{
+
+.serachBox i {
     background-color: #00ac4e;
     width: 2rem;
     height: 3rem;
     padding-top: 1rem;
 
 }
-.serachBox input{
+
+.serachBox input {
     width: 25rem;
     height: 3rem;
-    margin: 3rem 0; 
+    margin: 3rem 0;
     background-color: rgb(216, 211, 211);
     border: none;
     padding-left: 1rem;
-    
+
 }
-.menuBar{
+
+.menuBar {
     height: 3rem;
     background-color: #39393f;
 }
+
 /* menu list css  */
-.menuList{
+.menuList {
     width: 100%;
     height: 3rem;
 }
-.menuList ul{
-    display:flex; 
-    justify-content:space-around;
+
+.menuList ul {
+    display: flex;
+    justify-content: space-around;
     margin: 0 15rem;
     padding-top: 14px;
 }
-.menuList ul li{
+
+.menuList ul li {
     text-align: center;
     list-style: none;
 }
-.menuList ul li a{
+
+.menuList ul li a {
     text-decoration: none;
     color: white;
 }
-.menuList ul li a:hover{
+
+.menuList ul li a:hover {
     color: #00ac4e;
     border-bottom: #00ac4e solid 1px;
 }
 
-.chocoBite img{
+.chocoBite img {
     width: 100%;
 }
-.years{
+
+.years {
     text-align: center;
     font-size: 2.5rem;
     margin: 2rem;
 }
 
-.youTube iframe{
+.youTube iframe {
     width: 80%;
     height: 30rem;
     margin-left: 9rem;
     margin-bottom: 2rem;
     border-radius: 1rem;
-    
+
 }
 
 /* products */
-.Products{
+.Products {
     margin-bottom: 3rem;
 }
-.imgDiv{
+
+.imgDiv {
     margin-left: 1rem;
     display: flex;
 }
-.imgDiv img{
+
+.imgDiv img {
     width: 40rem;
     height: 17rem;
     margin-left: 1rem;
     margin-top: 2rem;
     border-radius: 5px;
 }
-.mainImgDiv{
+
+.mainImgDiv {
     width: 40rem;
     height: 17rem;
 }
+
+.best {
+    text-align: center;
+}
+.products{
+    border: 1px solid black;
+    /* height: 40rem; */
+}
+.ProductContainer{
+    border: 1px solid red;
+    width: 85%;
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+.iceCreamCard{
+    border: 1px solid blue;
+    width: 23%;
+    height: 22rem;
+    margin-left: 10px;
+    background-color: white;
+}
+.iceCreamCard img{
+    width: 100%;
+}
+.iceCreamCard h4{
+    text-align: center;
+    margin: 10px;
+} 
+.iceCreamCard div{
+    text-align: center;
+    border: 1px solid navy;
+    display: none;
+}
+.iceCreamCard:hover div{
+    display: block;
+}
+.iceCreamCard div .buy{
+    width: 4rem;
+    padding: 5px;
+    background-color: #00ac4e;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.iceCreamCard div .readMore{
+    width: 7rem;
+    padding: 5px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 2px;
+}
+.iceCreamCard div .readMore:hover{
+    background-color: #00ac4e;
+}
+
 /* information div css*/
 
-.paraGraph{
-    width: 100%;  font-family: Georgia, 'Times New Roman', Times, serif;
-    
+.paraGraph {
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
-.pcontain{
+
+.pcontain {
     background-color: white;
     box-shadow: 2px 2px 7px black;
     border-radius: 10px;
     margin: 2rem 7rem;
     text-align: center;
 }
-.pcontain h3{
+
+.pcontain h3 {
     padding: 2rem 0;
     font-size: 25px;
 }
-.pcontain p{
+
+.pcontain p {
     text-align: start;
     padding: 0 3rem;
     line-height: 2rem;
     margin-bottom: 2rem;
-  
+
     font-size: 20px;
 }
-.pcontain .readBt{
-display: block;
-justify-content: center;    
+
+.pcontain .readBt {
+    display: block;
+    justify-content: center;
 }
-.readBt button{
-     background-color: #00ac4e;
+
+.readBt button {
+    background-color: #00ac4e;
     border: none;
     border-radius: 5px;
     height: 2rem;
@@ -178,19 +260,22 @@ justify-content: center;
 
 /* green footer css */
 
-.greenfooter{
+.greenfooter {
     background-color: #13a538;
 }
-.child{
+
+.child {
     text-align: center;
 }
-.child img{
+
+.child img {
     width: 15rem;
     height: 4rem;
     margin: 0 auto;
     margin-bottom: 1rem;
 }
-.child p button{
+
+.child p button {
     background-color: black;
     color: white;
     padding: 10px;
@@ -201,7 +286,8 @@ justify-content: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-.child .available{
+
+.child .available {
     font-size: 25px;
     color: white;
     margin-bottom: 1rem;
@@ -209,81 +295,95 @@ justify-content: center;
 
 /* footer */
 
-.foot{
+.foot {
     background-color: #39393f;
 }
-.mainFooter{
-    background-color:#39393f;
+
+.mainFooter {
+    background-color: #39393f;
     display: flex;
     justify-content: space-between;
-    color:white;   
+    color: white;
     padding: 6rem 6rem 2rem 6rem;
 }
-.mainFooter h3{
+
+.mainFooter h3 {
     color: gray;
     margin-bottom: 1rem;
     margin-top: 2rem;
     font-size: medium;
 }
 
-.contacUS ,.about p a, .others p a, .shop p a{
+.contacUS,
+.about p a,
+.others p a,
+.shop p a {
     color: white;
     text-decoration: none;
     line-height: 2rem;
 }
 
 
-.contacUS p a:hover{
+.contacUS p a:hover {
     color: green;
 }
-.about p a:hover{
+
+.about p a:hover {
     color: green;
 }
-.others p a:hover{
+
+.others p a:hover {
     color: green;
 }
-.shop p a:hover{
+
+.shop p a:hover {
     color: green;
 }
-.contacUS{
+
+.contacUS {
     flex: 30%;
-    border-right: 2px solid white ;
+    border-right: 2px solid white;
     padding-right: 2rem;
 
 }
-.about{
+
+.about {
     flex: 30%;
-     border-right: 2px solid white ;
-     padding-left: 2rem;
-    
+    border-right: 2px solid white;
+    padding-left: 2rem;
+
 }
-.others{
+
+.others {
     flex: 20%;
     margin-left: 2rem;
-    
+
 }
-.shop{
+
+.shop {
     flex: 20%;
-     border-left: 2px solid white ;
-     padding-left: 2rem;
+    border-left: 2px solid white;
+    padding-left: 2rem;
 
 }
 
-.socialIcons{
+.socialIcons {
     display: flex;
     font-size: 25px;
     justify-content: center;
     padding-bottom: 4rem;
     color: rgb(248, 244, 244);
-    
+
 }
-.socialIcons div{
+
+.socialIcons div {
     padding: 7px;
     border-radius: 50%;
     margin-right: 20px;
     background-color: rgba(31, 35, 43, 0.76);
 }
-.socialIcons div:hover{
+
+.socialIcons div:hover {
     color: green;
     background-color: white;
 }
