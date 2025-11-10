@@ -11,7 +11,7 @@ body {
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
 .navHeading {
@@ -96,8 +96,8 @@ html {
 .menuBar {
     height: 3rem;
     background-color: #39393f;
-    position: sticky;
-    top:0;
+    /* position: sticky;
+    top:0; */
 }
 
 /* menu list css  */
@@ -155,15 +155,31 @@ html {
 .imgDiv {
     margin-left: 1rem;
     display: flex;
+    /* border: 1px solid black; */
+}
+.imgDiv .imgBox{
+    /* border: 1px solid red; */
+    height: 18rem;
+    width: 43rem;
+    margin: 1% 1%;
+    overflow: hidden;    
+    
 }
 
-.imgDiv img {
-    width: 40rem;
-    height: 17rem;
-    margin-left: 1rem;
-    margin-top: 2rem;
+.imgBox  img {
+    width: 100%;
+    height: 100%;
+    /* margin-left: 1rem; */
+    /* margin-top: 2rem; */
     border-radius: 5px;
+    /* border: 1px solid black; */
+    transition: transform 0.5s ease-out; 
 }
+.imgBox img:hover{
+     transform: scale(1.1); 
+    
+}
+
 
 .mainImgDiv {
     width: 40rem;
@@ -193,9 +209,14 @@ html {
     margin-left: 13px;
     background-color: white;
     margin-bottom: 2rem;
+    overflow: hidden;
+    transition: transform 0.5s ease ease-out; 
 }
 .iceCreamCard img{
     width: 100%;
+}
+.iceCreamCard img:hover{
+     transform: scale(1.1);
 }
 .iceCreamCard h4{
     text-align: center;
@@ -232,16 +253,22 @@ html {
     width: 100%;
     border: 1px solid greenyellow;
     margin-bottom: 5rem;
+
 }
 .nowJs{
     width: 85%;
     margin: 2rem auto;
     border: 1px solid orange;
+    overflow: hidden;
+    
 }
 .nowJs img{
     width: 100%;
+     transition: transform 0.5s ease;
 }
-
+.nowJs img:hover{
+     transform: scale(1.1);
+}
 /* INGREDIENT STORY css */
 
 .ing{
