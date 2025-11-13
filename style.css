@@ -27,10 +27,12 @@ html {
     justify-content: space-between;
     background-color: white;
     height: 8rem;
+    width: 100%;
 }
 
 .logoBox {
     display: flex;
+
 
 }
 
@@ -67,6 +69,7 @@ html {
 
     
 }
+
 
 .serachBox i {
     background-color: #00ac4e;
@@ -209,28 +212,42 @@ html {
     margin-left: 13px;
     background-color: white;
     margin-bottom: 2rem;
-    overflow: hidden;
-    transition: transform 0.5s ease ease-out; 
+    position: relative;
+   
 }
-.iceCreamCard img{
+.abc{
     width: 100%;
+    height: 15rem;
+    overflow: hidden;
 }
-.iceCreamCard img:hover{
+.abc img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+
+}
+.abc img:hover{
      transform: scale(1.1);
 }
 .iceCreamCard h4{
     text-align: center;
-    margin: 10px;
+    margin: 1.7rem;
 } 
-.iceCreamCard div{
+.iceCreamCard .abc{
+    border: 1px solid orange;
+}
+.iceCreamCard .xyz{
     text-align: center;
     border: 1px solid rgb(128, 0, 96);
     display: none;
+    position: absolute;
+    bottom: 0.2rem;
+    left: 2rem;
 }
-.iceCreamCard:hover div{
+.iceCreamCard:hover .xyz{
     display: block;
 }
-.iceCreamCard div .buy{
+.iceCreamCard .xyz .buy{
     width: 4rem;
     padding: 5px;
     background-color: #00ac4e;
@@ -238,7 +255,7 @@ html {
     border-radius: 3px;
     color: white;
 }
-.iceCreamCard div .readMore{
+.iceCreamCard .xyz .readMore{
     width: 7rem;
     padding: 5px;
     color: white;
@@ -556,4 +573,13 @@ html {
 }
 .Top a i{
     margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .seocndcon {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    
 }
